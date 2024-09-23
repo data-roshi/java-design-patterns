@@ -12,8 +12,8 @@ public class Main {
 
         // add pecan icecream to the chocolate
         IceCream pecanIceCream = new PecanIceCream(chocolateIceCream);
-        System.out.println("pecan added to chocholate: " + pecanIceCream.cost());
 
+        System.out.println("pecan added to chocholate: " + pecanIceCream.cost());
         // a new mint icecream and a double mint
         IceCream mintIceCream = new MintIceCream(basicIceCream);
         System.out.println("mint cost: " + mintIceCream.cost());
