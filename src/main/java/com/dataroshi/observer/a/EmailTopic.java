@@ -3,7 +3,7 @@ package com.dataroshi.observer.a;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmailTopic implements Subject{
+public class EmailTopic implements Observable {
 
     private List<Observer> observers;
     private String message;

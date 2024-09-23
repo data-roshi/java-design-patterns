@@ -3,7 +3,7 @@ package com.dataroshi.observer.a;
 public class EmailTopicSubscriber implements Observer {
 
     private String name;
-    private Subject topic;
+    private Observable topic;
 
     public EmailTopicSubscriber(String name) {
         this.name = name;
@@ -20,7 +20,7 @@ public class EmailTopicSubscriber implements Observer {
     }
 
     @Override
-    public void setSubject(Subject subject) {
-        this.topic = subject;
+    public void setObservable(Observable topic) {
+        this.topic = topic;
     }
 }

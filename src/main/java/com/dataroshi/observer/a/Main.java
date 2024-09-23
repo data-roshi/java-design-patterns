@@ -11,9 +11,9 @@ public class Main {
         Observer thirdObserver = new EmailTopicSubscriber("third observer");
 
         // depends  could also be set in constructor
-        firstObserver.setSubject(topic);
-        secondObserver.setSubject(topic);
-        thirdObserver.setSubject(topic);
+        firstObserver.setObservable(topic);
+        secondObserver.setObservable(topic);
+        thirdObserver.setObservable(topic);
 
         topic.register(firstObserver);
         topic.register(secondObserver);

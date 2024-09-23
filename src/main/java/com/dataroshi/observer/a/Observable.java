@@ -1,6 +1,6 @@
 package com.dataroshi.observer.a;
 
-public interface Subject{
+public interface Observable {
 
     void register(Observer observer);
 
