@@ -1,4 +1,4 @@
-package com.dataroshi.strategy;
+package com.dataroshi;
 
 public class Main {
 
