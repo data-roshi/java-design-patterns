@@ -6,7 +6,7 @@ public abstract class HamburgerStore {
 
     public Hamburger orderHamburger(HamburgerType type) {
 
-        Hamburger burger = createHamburger(type);
+        var burger = createHamburger(type);
 
         burger.prepare();
         burger.cook();
