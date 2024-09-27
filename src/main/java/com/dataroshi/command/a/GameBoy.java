@@ -6,6 +6,7 @@ public class GameBoy {
     private final Command leftCommand;
     private final Command rightCommand;
 
+    // Todo don't think this is a really good example
     public GameBoy(Command upCommand, Command downCommand, Command leftCommand, Command rightCommand) {
         this.upCommand = upCommand;
         this.downCommand = downCommand;
